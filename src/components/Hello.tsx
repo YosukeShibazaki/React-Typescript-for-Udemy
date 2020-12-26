@@ -1,6 +1,6 @@
 import React from 'react'
 type HelloProps = {
-    message: string
+    message: string | null
 }
 
 const Hello = (props: HelloProps) => { // propsには型を付ける
